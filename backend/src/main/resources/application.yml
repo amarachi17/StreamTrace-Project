@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost\MSSQLSERVER1;databaseName=StreamTrace
+    username: sa
+    password: sl33k
+  jpa:
+    show-sql: false
+  sql:
+    init:
+      platform: mssql
